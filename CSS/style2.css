@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+
+.top-icons{
+   /* display: flex; */
+   /* background-color: #fff; */
+   padding: 20px;
+}
+
+ .icon-background {
+    display: flex;
+ } 
+/*
+    background-color: rgb(168, 161, 161);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right:10px;
+
+} */
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 161, 161);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right:10px;
+
+
+
+}
+
+.text{
+    color: #fff;
+}
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red;
+    height: 200px */
+    /* margin-top: 15rem; */
+
+} 
+
+.profile-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 161, 161);
+    /* border-radius: 5%; */
+    height: 100px;
+    width: 100px;
+
+}
+
+.person-identity{
+    font-size: 36px;
+}
+
+.bottom-icons{
+    /* background: red; */
+    /*height: 600px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25rem;;
+}
+
+.bottom-profile-icon{
+    
+}
+
+/* .material-icons-outlined{
+    font-size: 46px;
+} */
+
+.material-icons-outlined{
+    font-size: 36px;
+}
