@@ -9,87 +9,149 @@ body{
   background-color: #333;
 }
 
-.top-icons{
-   /* display: flex; */
-   /* background-color: #fff; */
+.container{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+} 
+
+
+/*top-icons*/
+
+.top-buttons{
    padding: 20px;
 }
 
- .icon-background {
+ .btn-background {
     display: flex;
+    gap: 16px;
  } 
-/*
-    background-color: rgb(168, 161, 161);
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin-right:10px;
 
-} */
+.btn-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
-.icon{
+.btn{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(168, 161, 161);
+    border: none;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin-right:10px;
+    height:60px;
+    width: 60px;
 
+}
 
+.btn-text .btn:hover{
 
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .text{
     color: #fff;
 }
 
+.profile-name-text{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
 
+.material-icons-outlined.all-icons{
+    font-size: 34px;
+}
+
+
+
+/*profile*/
 
 .profile{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: red;
-    height: 200px */
-    /* margin-top: 15rem; */
-
+    flex: 1;
+    gap: 16px;
 } 
 
 .profile-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(168, 161, 161);
-    /* border-radius: 5%; */
-    height: 100px;
-    width: 100px;
-
+    background-color: #fff;
+    border: none;
+    border-radius: 5%;
+    height: 200px;
+    width: 190px;
 }
 
-.person-identity{
-    font-size: 36px;
+.material-icons-outlined.person-icon{
+    font-size: 276px;
 }
 
-.bottom-icons{
-    /* background: red; */
-    /*height: 600px; */
+#profile-icon-img{
+    display: block;
+    color: blue;
+}
+
+
+
+
+/*Bottom*/
+
+.bottom-btns{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 25rem;;
 }
 
-.bottom-profile-icon{
-    
+.bottom-btns-background{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 33px;
 }
 
-/* .material-icons-outlined{
-    font-size: 46px;
-} */
+.btn-bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
-.material-icons-outlined{
-    font-size: 36px;
+#call-icon{
+    background: rgb(199, 58, 58);
+}
+
+.btn-bottom-text .btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.btn-bottom-text #call-icon:hover{
+    background-color: rgb(184, 109, 109);
+    cursor: pointer; 
+
+}
+
+.main-person-profile .btn{
+   border-radius: 5px;
+   height:100px;
+   width: 100px;
+    position: absolute;
+   right: 20px;
+   bottom: 20px;
+}
+
+.main-person-profile{
+    justify-content: flex-end;
 }
